@@ -7,7 +7,6 @@ export const ListItem = ({ item, badge }) => {
         <h2 className="name">{name}</h2>
         <p className="age">{age} years</p>
       </div>
-      {/* <span className="badge">{badge}</span> */}
     </li>
   );
 };

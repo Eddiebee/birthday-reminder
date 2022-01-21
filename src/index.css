@@ -29,7 +29,6 @@ header {
   flex-direction: row-reverse;
   justify-content: left;
   align-items: center;
-  /* background-color: blue; */
   padding: 1rem 1rem 1rem 0;
   gap: 2rem;
 }

@@ -10,7 +10,6 @@ function App() {
 
   const handleClear = () => {
     setCelebrants([]);
-    // alert("Why do you want to clear?");
   };
   return (
     <main>
