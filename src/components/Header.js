@@ -1,7 +1,9 @@
-const Header = ({ title, icon }) => {
+const Header = ({ title, icon, numberOfReminders }) => {
   return (
     <header>
-      {icon}
+      <span style={numberOfReminders ? { color: "#f28ab2" } : null}>
+        {icon}
+      </span>
       <h1 className="title">{title}</h1>
     </header>
   );

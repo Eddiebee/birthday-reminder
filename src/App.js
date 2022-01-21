@@ -15,7 +15,11 @@ function App() {
   return (
     <main>
       <section className="section">
-        <Header title="Birthday Reminder" icon={<FaBirthdayCake />} />
+        <Header
+          title="Birthday Reminder"
+          icon={<FaBirthdayCake />}
+          numberOfReminders={celebrants.length}
+        />
         <List list={celebrants} badge={<GiGlassCelebration />} />
         <button onClick={handleClear} className="btn-clear">
           Clear

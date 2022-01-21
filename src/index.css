@@ -40,7 +40,7 @@ header > h1 {
   letter-spacing: 2px;
 }
 
-header > svg {
+header > span {
   font-size: 3rem;
   color: #f1e6ea;
 }
